@@ -1,5 +1,5 @@
 <?php
-namespace Captcha;
+namespace Captcha\Captcha;
 
 use Gregwar\Captcha\CaptchaBuilder;
 use Illuminate\Support\Str;

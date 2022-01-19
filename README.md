@@ -47,7 +47,7 @@ return [
 ];
 ```
 
-Then publish the config file with `php artisan vendor:publish`. This will add the file `config/latrell-captcha.php`.
+Then publish the config file with `php artisan vendor:publish`. This will add the file `config/captcha.php`.
 This config file is the primary way you interact with Captcha.
 
 ## Example Usage

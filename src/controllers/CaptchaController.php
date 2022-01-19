@@ -1,5 +1,5 @@
 <?php
-namespace Captcha;
+namespace Captcha\controllers;
 
 use Illuminate\Routing\Controller;
 

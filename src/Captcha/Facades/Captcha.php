@@ -1,4 +1,4 @@
-<?php namespace Captcha\Facades;
+<?php namespace Captcha\Captcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
