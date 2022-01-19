@@ -11,7 +11,7 @@ This library is not maintained for 3rd party use.
 ## Installation
 
 ```
-composer require hakim/captcha dev-master
+composer require chenhakim/captcha dev-master
 ```
 
 ## Usage
