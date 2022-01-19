@@ -8,8 +8,6 @@ use Config, Session, Hash, Response, URL;
 /**
  * 验证码
  *
- * @author Latrell Chan
- *
  */
 class Captcha
 {
@@ -34,7 +32,7 @@ class Captcha
     {
         $this->builder = new CaptchaBuilder();
 
-        $configKey = 'latrell-captcha.';
+        $configKey = 'captcha.';
 
         $this->against_ocr = Config::get($configKey . 'against_ocr');
         $this->width = Config::get($configKey . 'width');
