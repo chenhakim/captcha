@@ -19,9 +19,6 @@
 		"gregwar/captcha" : "1.*"
 	},
 	"autoload" : {
-		"classmap" : [
-			"src/controllers"
-		],
 		"psr-4" : {
 			"Captcha\\" : "src/"
 		}
