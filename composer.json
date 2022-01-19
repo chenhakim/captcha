@@ -1,0 +1,39 @@
+{
+	"name" : "hakim/captcha",
+	"description" : "Captcha Package for Laravel 5/6/7/8",
+	"keywords" : [
+		"L5",
+		"Laravel 5",
+		"Laravel 6",
+		"Laravel 7",
+		"Laravel 8",
+		"Laravel",
+		"Captcha",
+		"security",
+		"captcha image"
+	],
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.4.0",
+		"illuminate/support" : "5.*|6.*|7.*|8.*",
+		"gregwar/captcha" : "1.*"
+	},
+	"autoload" : {
+		"classmap" : [
+			"src/controllers"
+		],
+		"psr-4" : {
+			"Captcha\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Captcha\\CaptchaServiceProvider"
+			],
+			"aliases" : {
+				"Captcha" : "Captcha\\Facades\\Captcha"
+			}
+		}
+	}
+}
