@@ -85,7 +85,7 @@ This config file is the primary way you interact with Captcha.
 
 ## Links
 
-* [L5 Captcha on Github](https://github.com/latrell/captcha)
+* [latrell L5 Captcha on Github](https://github.com/latrell/captcha)
 * [Captcha for Gregwar](https://github.com/Gregwar/Captcha)
 * [License](http://www.opensource.org/licenses/mit-license.php)
 * [Laravel website](http://laravel.com)
