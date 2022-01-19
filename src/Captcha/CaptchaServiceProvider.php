@@ -14,11 +14,11 @@ class CaptchaServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		$this->publishes([
-			__DIR__ . '/../../config/config.php' => config_path('captcha.php')
+			__DIR__ . '/../config/config.php' => config_path('captcha.php')
 		], 'config');
 
-		require __DIR__ . '/../../routes.php';
-		require __DIR__ . '/../../validation.php';
+		require __DIR__ . '/../routes.php';
+		require __DIR__ . '/../validation.php';
 	}
 
 	/**
@@ -28,7 +28,7 @@ class CaptchaServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->mergeConfigFrom(__DIR__ . '/../../config/config.php', 'captcha');
+		$this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'captcha');
 
 		$this->app->singleton('captcha', function ($app) {
 			return Captcha::instance();
