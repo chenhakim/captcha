@@ -24,7 +24,7 @@ Find the `providers` key in `config/app.php` and register the Captcha Service Pr
 ```php
     'providers' => [
         // ...
-        'Captcha\CaptchaServiceProvider',
+        'Captcha\Captcha\CaptchaServiceProvider',
     ]
 ```
 
