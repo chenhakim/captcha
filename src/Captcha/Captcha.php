@@ -41,10 +41,10 @@ class Captcha
         $this->quality = Config::get($configKey . 'quality');
 
         $background_color = Config::get($configKey . 'background_color');
-        if (is_string($background_color) && strlen($background_color) == 7 && $background_color{0} == '#') {
-            $r = hexdec($background_color{1} . $background_color{2});
-            $g = hexdec($background_color{3} . $background_color{4});
-            $b = hexdec($background_color{5} . $background_color{6});
+        if (is_string($background_color) && strlen($background_color) == 7 && $background_color[0] == '#') {
+            $r = hexdec($background_color[1] . $background_color[2]);
+            $g = hexdec($background_color[3] . $background_color[4]);
+            $b = hexdec($background_color[5] . $background_color[6]);
             $this->builder->setBackgroundColor($r, $g, $b);
         } elseif (is_array($background_color) && count($background_color) == 3) {
             $this->builder->setBackgroundColor($background_color[0], $background_color[1], $background_color[2]);
